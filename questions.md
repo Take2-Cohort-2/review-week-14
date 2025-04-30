@@ -80,30 +80,6 @@ Note: Use the base URL `https://api.todo.com` for all requests.
 
 ---
 
-### 5. Understanding JSON and HTTP Headers
-
-You are building a weather app that needs to fetch data from an API. The API returns weather information in JSON format.
-
-1. Write a function that makes a request to `https://api.weather.com/forecast` with the following requirements:
-   - Include the header `Accept: application/json` to specify we want JSON data
-   - Include the header `Authorization: Bearer YOUR_API_KEY` for authentication
-   - Use the appropriate HTTP method for retrieving data
-   - Handle the response by checking if it's successful (status code 200)
-   - Parse the JSON response
-
-2. Explain why each header is necessary and what would happen if they were missing.
-
-Example response format:
-```json
-{
-  "temperature": 22,
-  "conditions": "sunny",
-  "humidity": 65
-}
-```
-
----
-
 ### 5. Understanding the Order of Console Logs in Async JavaScript
 
 You are given the following JavaScript code snippet:
